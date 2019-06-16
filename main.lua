@@ -8,6 +8,7 @@ function love.load()
 
         unrequited:closer_to_me('ball')
         unrequited.half_my_world['ball'].ground = game.ydim
+        unrequited.half_my_world['ball'].wall = game.xdim
 
 end
 
